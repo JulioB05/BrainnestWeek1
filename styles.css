@@ -1,0 +1,27 @@
+.body {
+    background-color: #ffffff;
+}
+
+.body img {
+    height: 200px;
+    width: 200px;
+}
+
+
+.title {
+    justify-content: center;
+    text-align: center;
+    color: rgb(9, 3, 48);
+    font-size: 50px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around
+}
+
+.list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+}
